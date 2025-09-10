@@ -1,0 +1,51 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.roboto-nav {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+.logo {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -10px;
+    left: 46.3%;
+    z-index: 9999;
+}
+
+nav {
+    height: 7vh;
+}
+
+.nav-link {
+    color: #370068 !important;
+    height: 100%;
+    line-height: 68px;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid #370068;
+}
+
+.carousel-item {
+    height: 93vh;
+}
+
+.carousel-item:nth-child(2) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
