@@ -10,7 +10,13 @@ body {
     height: 100vh;
 }
 
-.roboto-nav {
+h1 {
+    color: #C19300;
+}
+
+/*NAV*/
+
+.audiowide-nav {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -21,7 +27,6 @@ body {
     width: 150px;
     position: absolute;
     top: -10px;
-    left: 46.3%;
     z-index: 9999;
 }
 
@@ -33,14 +38,44 @@ nav {
     color: #370068 !important;
     height: 100%;
     line-height: 68px;
+    text-align: center;
 }
 
 .nav-link:hover {
-    border-bottom: 4px solid #370068;
+    border-top: 4px solid #370068;
+    background-color: rgb(247, 247, 247);
 }
 
+.noticias-nav {
+    background-color: #370068;
+    color: white; /*#C19300*/
+    overflow: hidden;
+    height: 2.5vh;
+    display: flex;
+    align-items: center;
+}
+
+.noticias-nav p {
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0;
+    min-width: 100%;
+    animation: noticias-move 20s linear infinite;
+}
+
+@keyframes noticias-move {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*BANNER*/
+
 .carousel-item {
-    height: 93vh;
+    height: 91.5vh;
 }
 
 .carousel-item:nth-child(2) img{
@@ -48,4 +83,30 @@ nav {
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+/*ESTADISTICAS*/
+
+table, th, td {
+    border: #C19300 2px solid !important;
+}
+
+thead {
+    background-color: #370068;
+    color: white;
+}
+
+/*PARTIDOS*/
+
+.accordion-item {
+    border-radius: 0 !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.resultado {
+    line-height: 22px;
+    background-color: #370068;
+    color: white;
 }

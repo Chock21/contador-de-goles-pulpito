@@ -12,25 +12,26 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light p-0">
+        <nav class="navbar navbar-light bg-body p-0 shadow-lg">
             <div class="container h-100">
                 <a class="logo" href="index.html">
                     <img src="imgs/pulpito_fc.svg" alt="Pulpito-escudo">
                 </a>
                 <div class="d-flex w-100 h-100">
-                    <div class="d-flex flex-row justify-content-start w-100 h-100 fs-5 roboto-nav">
-                        <a class="nav-link active px-3 p-0" href="#">ESTADISTICAS</a>
-                        <a class="nav-link active px-3 p-0" href="#">PARTIDOS</a>
-                        <a class="nav-link active px-3 p-0" href="#">PARTIDOS</a>
-                    </div>
-                    <div class="d-flex flex-row justify-content-end w-100 h-100 fs-5 roboto-nav">
-                        <a class="nav-link active px-3 p-0" href="#">JUGADORES</a>
-                        <a class="nav-link active px-3 p-0" href="#">GALERIA</a>
-                        <a class="nav-link active px-3 p-0" href="#">PARTIDOS</a>
+                    <div class="d-flex flex-row justify-content-end w-100 h-100 fs-5 audiowide-nav">
+                        <a class="nav-link active border-end border-start px-3 p-0" href="#">PARTIDOS</a>
+                        <a class="nav-link active border-end px-3 p-0" href="#">JUGADORES</a>
+                        <a class="nav-link active border-end px-3 p-0" href="#">ESTADISTICAS</a>
+                        <a class="nav-link active border-end px-3 p-0" href="#">MVPS</a>
+                        <a class="nav-link active border-end px-3 p-0" href="#">GALERIA</a>
                     </div>
                 </div>
+                <button class="navbar-toggler border-0 hover-effect" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-label="Toggle navigation">
+                  <i class="bi bi-list fs-3 nav-ham"></i>
+                </button>
             </div>
         </nav>
+        <div class="noticias-nav"><p class="m-0"><strong>PARTIDO EL DOMINGO 14/9 A LAS 10:15hs - PULPITO F.C. VS F.C. NAPOLITANA </strong></p></div>
     </header>
     <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -56,12 +57,246 @@
             </button>
         </div>
         <div class="container my-4">
-            <h1>Estadisticas</h1>
+            <h1 class="audiowide-nav fs-1">ESTADISTICAS</h1>
+            <div class="d-flex mt-4">
+                <div class="me-4 w-25">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-center" colspan="3">GOLES</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center">#</th>
+                                <th class="text-center">JUGADORES</th>
+                                <th class="text-center">GOLES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="text-center">1</th>
+                                <td>Dylan</td>
+                                <td class="text-center">5</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">2</th>
+                                <td>Pancho</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">3</th>
+                                <td>Funa</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">4</th>
+                                <td>Toti</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">5</th>
+                                <td>Martin</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">6</th>
+                                <td>Broyi</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">7</th>
+                                <td>Mati</td>
+                                <td class="text-center">1</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+                <div class="w-25 me-4">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-center" colspan="3">ASISTENCIAS</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center">#</th>
+                                <th class="text-center">JUGADORES</th>
+                                <th class="text-center">ASISTENCIAS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="text-center">1</th>
+                                <td>Pancho</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">2</th>
+                                <td>Funa</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">3</th>
+                                <td>Toti</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">4</th>
+                                <td>Dylan</td>
+                                <td class="text-center">1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="w-25">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-center" colspan="3">MVPS</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center">#</th>
+                                <th class="text-center">JUGADORES</th>
+                                <th class="text-center">MVPS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="text-center">1</th>
+                                <td>Pancho</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">2</th>
+                                <td>Dylan</td>
+                                <td class="text-center">1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h1 class="audiowide-nav fs-1">PARTIDOS</h1>
+            <div class="accordion mt-4">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <div class="d-flex w-25">
+                                <p class="pe-2 py-2 m-0 border-end fw-bold w-50">SAB. 6 SEPT.</p>
+                                <p class="px-2 py-2 m-0 border-end text-center w-50">Amistoso</p>
+                            </div>
+                            <div class="d-flex justify-content-center w-75">
+                                <div class="d-flex w-25 justify-content-end">
+                                    <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
+                                    <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
+                                </div>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">8 - 3</p>
+                                <div class="d-flex w-25 justify-content-start">
+                                    <img src="imgs/equipos/ruleteros-escudo.png" alt="escudo-ruleteros" style="width: 40px; height: 40px;" class="mx-2">
+                                    <p class="my-2 fw-bold fs-5">Ruleteros</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <div class="d-flex w-25">
+                                <p class="pe-2 py-2 m-0 border-end fw-bold w-50">DOM. 23 AGOS.</p>
+                                <p class="px-2 py-2 m-0 border-end text-center w-50">Torneo</p>
+                            </div>
+                            <div class="d-flex justify-content-center w-75">
+                                <div class="d-flex w-25 justify-content-end">
+                                    <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
+                                    <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
+                                </div>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">2 - 1</p>
+                                <div class="d-flex w-25 justify-content-start">
+                                    <img src="imgs/equipos/rengos-escudo.png" alt="escudo-ruleteros" style="width: 40px; height: 40px;" class="mx-2">
+                                    <p class="my-2 fw-bold fs-5">Rengos</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <div class="d-flex w-25">
+                                <p class="pe-2 py-2 m-0 border-end fw-bold w-50">DOM. 16 AGOS.</p>
+                                <p class="px-2 py-2 m-0 border-end text-center w-50">Amistoso</p>
+                            </div>
+                            <div class="d-flex justify-content-center w-75">
+                                <div class="d-flex w-25 justify-content-end">
+                                    <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
+                                    <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
+                                </div>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">2 - 3</p>
+                                <div class="d-flex w-25 justify-content-start">
+                                    <img src="imgs/equipos/ruleteros-escudo.png" alt="escudo-ruleteros" style="width: 40px; height: 40px;" class="mx-2">
+                                    <p class="my-2 fw-bold fs-5">Ruleteros</p>
+                                </div>
+                            </div>
+                      </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                      <div class="accordion-body">
+
+                      </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            <div class="d-flex w-25">
+                                <p class="pe-2 py-2 m-0 border-end fw-bold w-50">DOM. 9 AGOS.</p>
+                                <p class="px-2 py-2 m-0 border-end text-center w-50">Amistoso</p>
+                            </div>
+                            <div class="d-flex justify-content-center w-75">
+                                <div class="d-flex w-25 justify-content-end">
+                                    <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
+                                    <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
+                                </div>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">6 - 3</p>
+                                <div class="d-flex w-25 justify-content-start">
+                                    <img src="imgs/equipos/malvinas-escudo.png" alt="escudo-malvinas" style="width: 40px; height: 40px;" class="mx-2">
+                                    <p class="my-2 fw-bold fs-5">Malvinas</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-4">
+            <h1 class="audiowide-nav fs-1">JUGADORES</h1>
+        </div>
+        <div class="container my-4">
+            <h1 class="audiowide-nav fs-1">GALERIA</h1>
         </div>
     </main>
     <footer class="border-top">
-        <div class="container">
-            <p class="">&copy; 2025 - Pulpito F.C.</p>
+        <div class="container border-end border-start">
+            <a href="" class="">
+                <img class="my-2 border-end" src="imgs/pulpito_fc.svg" alt="Pulpito-escudo" style="width: 150px;">
+            </a>
+            <p class="m-0 py-2 border-top">&copy; 2025 - Pulpito Football Club Todos los derechos reservados.</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
