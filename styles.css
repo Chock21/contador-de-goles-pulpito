@@ -110,3 +110,11 @@ thead {
     background-color: #370068;
     color: white;
 }
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+}
