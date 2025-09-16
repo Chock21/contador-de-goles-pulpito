@@ -107,7 +107,6 @@ thead {
 
 .resultado {
     line-height: 22px;
-    background-color: #370068;
     color: white;
 }
 
@@ -117,4 +116,45 @@ thead {
 
 .accordion-button:not(.collapsed) {
     color: black !important;
+}
+
+.victoria {
+    background-color: green;
+}
+
+.derrota {
+    background-color: red;
+}
+
+.convocados {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 1.5rem;
+}
+
+/*JUGADORES*/
+
+.jugadores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.jugador-num {
+    line-height: 48px;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.jugador-linea {
+    height: 10px;
+    background-color: #C19300;
+}
+
+.jugador-linea div {
+    height: 10px;
+    background-color: #370068;
 }

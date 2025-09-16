@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -22,7 +23,7 @@
                         <a class="nav-link active border-end border-start px-3 p-0" href="#">PARTIDOS</a>
                         <a class="nav-link active border-end px-3 p-0" href="#">JUGADORES</a>
                         <a class="nav-link active border-end px-3 p-0" href="#">ESTADISTICAS</a>
-                        <a class="nav-link active border-end px-3 p-0" href="#">MVPS</a>
+                        <a class="nav-link active border-end px-3 p-0" href="#">JMVS</a>
                         <a class="nav-link active border-end px-3 p-0" href="#">GALERIA</a>
                     </div>
                 </div>
@@ -31,7 +32,7 @@
                 </button>
             </div>
         </nav>
-        <div class="noticias-nav"><p class="m-0"><strong>PARTIDO EL DOMINGO 14/9 A LAS 10:15hs - PULPITO F.C. VS F.C. NAPOLITANA </strong></p></div>
+        <div class="noticias-nav"><p class="m-0"><strong>PULPITO F.C. 6 - F.C. NAPOLITANA 1 - RESULTADO FINAL</strong></p></div>
     </header>
     <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -75,17 +76,17 @@
                             <tr>
                                 <th class="text-center">1</th>
                                 <td>Dylan</td>
-                                <td class="text-center">5</td>
+                                <td class="text-center">6</td>
                             </tr>
                             <tr>
                                 <th class="text-center">2</th>
                                 <td>Pancho</td>
-                                <td class="text-center">2</td>
+                                <td class="text-center">5</td>
                             </tr>
                             <tr>
                                 <th class="text-center">3</th>
                                 <td>Funa</td>
-                                <td class="text-center">2</td>
+                                <td class="text-center">4</td>
                             </tr>
                             <tr>
                                 <th class="text-center">4</th>
@@ -126,21 +127,26 @@
                         <tbody>
                             <tr>
                                 <th class="text-center">1</th>
+                                <td>Martin</td>
+                                <td class="text-center">3</td>
+                            </tr>
+                            <tr>
+                                <th class="text-center">2</th>
                                 <td>Pancho</td>
                                 <td class="text-center">2</td>
                             </tr>
                             <tr>
-                                <th class="text-center">2</th>
+                                <th class="text-center">3</th>
                                 <td>Funa</td>
                                 <td class="text-center">2</td>
                             </tr>
                             <tr>
-                                <th class="text-center">3</th>
+                                <th class="text-center">4</th>
                                 <td>Toti</td>
                                 <td class="text-center">2</td>
                             </tr>
                             <tr>
-                                <th class="text-center">4</th>
+                                <th class="text-center">5</th>
                                 <td>Dylan</td>
                                 <td class="text-center">1</td>
                             </tr>
@@ -151,19 +157,19 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th class="text-center" colspan="3">MVPS</th>
+                                <th class="text-center" colspan="3">JUGADOR MEJOR VALORADO</th>
                             </tr>
                             <tr>
                                 <th class="text-center">#</th>
                                 <th class="text-center">JUGADORES</th>
-                                <th class="text-center">MVPS</th>
+                                <th class="text-center">JMVS</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th class="text-center">1</th>
                                 <td>Pancho</td>
-                                <td class="text-center">2</td>
+                                <td class="text-center">3</td>
                             </tr>
                             <tr>
                                 <th class="text-center">2</th>
@@ -179,6 +185,53 @@
             <h1 class="audiowide-nav fs-1">PARTIDOS</h1>
             <div class="accordion mt-4 border">
                 <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+                            <div class="d-flex w-25">
+                                <p class="pe-2 py-2 m-0 border-end fw-bold w-50">DOM. 14 SEPT.</p>
+                                <p class="px-2 py-2 m-0 border-end text-center w-50">Torneo</p>
+                            </div>
+                            <div class="d-flex justify-content-center w-75">
+                                <div class="d-flex w-25 justify-content-end">
+                                    <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
+                                    <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
+                                </div>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado victoria">6 - 1</p>
+                                <div class="d-flex w-25 justify-content-start">
+                                    <img src="imgs/equipos/napolitana-escudo.png" alt="escudo-napolitana" style="width: 40px; height: 40px;" class="mx-2">
+                                    <p class="my-2 fw-bold fs-5">F.C. Napolitana</p>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body d-flex">
+                            <div class="border-end w-25 pe-3">
+                                <p><strong>DT:</strong> No se presento</p><p class="text-center border-top border-bottom m-0 py-2 mb-3">Convocados</p>
+                                <div class="d-flex w-100">
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">1.</strong> Massa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">4.</strong> Dylan</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">5.</strong> Pelu</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">7.</strong> Luchi</p>
+                                    </div>
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">9.</strong> Funa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">10.</strong> Martin</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">13.</strong> Mati</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">99.</strong> Pancho</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ps-4">
+                                <p class="m-0">Pancho <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;">  <strong class="border px-1">JMV</strong></p>
+                                <p class="m-0">Funa <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
+                                <p class="m-0">Dylan <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                             <div class="d-flex w-25">
@@ -190,7 +243,7 @@
                                     <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
                                     <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
                                 </div>
-                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">8 - 3</p>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado victoria">8 - 3</p>
                                 <div class="d-flex w-25 justify-content-start">
                                     <img src="imgs/equipos/ruleteros-escudo.png" alt="escudo-ruleteros" style="width: 40px; height: 40px;" class="mx-2">
                                     <p class="my-2 fw-bold fs-5">Ruleteros</p>
@@ -200,11 +253,26 @@
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body d-flex">
-                            <div class="border-end w-25">
+                            <div class="border-end w-25 pe-3">
                                 <p><strong>DT:</strong> No se presento</p>
+                                <p class="text-center border-top border-bottom m-0 py-2 mb-3">Convocados</p>
+                                <div class="d-flex w-100">
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">1.</strong> Massa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">4.</strong> Dylan</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">7.</strong> Luchi</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">8.</strong> Ryan</p>
+                                    </div>
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">9.</strong> Funa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">10.</strong> Martin</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">13.</strong> Mati</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">99.</strong> Pancho</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="ps-4">
-                                <p class="m-0">Dylan <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;">  <strong class="border px-1">MVP</strong></p>
+                                <p class="m-0">Dylan <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;">  <strong class="border px-1">JMV</strong></p>
                                 <p class="m-0">Martin <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
                                 <p class="m-0">Funa <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
                                 <p class="m-0">Pancho <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
@@ -225,7 +293,7 @@
                                     <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
                                     <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
                                 </div>
-                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">2 - 1</p>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado victoria">2 - 1</p>
                                 <div class="d-flex w-25 justify-content-start">
                                     <img src="imgs/equipos/rengos-escudo.png" alt="escudo-ruleteros" style="width: 40px; height: 40px;" class="mx-2">
                                     <p class="my-2 fw-bold fs-5">Rengos</p>
@@ -235,11 +303,28 @@
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body d-flex">
-                            <div class="border-end w-25">
-                                <p><strong>DT:</strong> Benjamin Russo Borques</p>
+                            <div class="border-end w-25 pe-3">
+                                <p><strong>DT:</strong> Benjamin Borque</p>
+                                <p class="text-center border-top border-bottom m-0 py-2 mb-3">Convocados</p>
+                                <div class="d-flex w-100">
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">1.</strong> Massa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">2.</strong> Wences</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">4.</strong> Dylan</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">6.</strong> Broyi</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">7.</strong> Luchi</p>
+                                    </div>
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">9.</strong> Funa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">10.</strong> Martin</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">13.</strong> Mati</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">20.</strong> Joaco</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">99.</strong> Pancho</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="ps-4">
-                                <p class="m-0">Pancho  <strong class="border px-1">MVP</strong></p>
+                                <p class="m-0">Pancho  <strong class="border px-1">JMV</strong></p>
                                 <p class="m-0">Dylan <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
                                 <p class="m-0">Broyi <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
                             </div>
@@ -258,7 +343,7 @@
                                     <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
                                     <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
                                 </div>
-                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">2 - 3</p>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado derrota">2 - 3</p>
                                 <div class="d-flex w-25 justify-content-start">
                                     <img src="imgs/equipos/ruleteros-escudo.png" alt="escudo-ruleteros" style="width: 40px; height: 40px;" class="mx-2">
                                     <p class="my-2 fw-bold fs-5">Ruleteros</p>
@@ -268,8 +353,24 @@
                   </h2>
                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                         <div class="accordion-body d-flex">
-                            <div class="border-end w-25">
+                            <div class="border-end w-25 pe-3">
                                 <p><strong>DT:</strong> No se presento</p>
+                                <p class="text-center border-top border-bottom m-0 py-2 mb-3">Convocados</p>
+                                <div class="d-flex w-100">
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">1.</strong> Massa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">4.</strong> Dylan</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">6.</strong> Broyi</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">7.</strong> Luchi</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">9.</strong> Funa</p>
+                                    </div>
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">10.</strong> Martin</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">11.</strong> Toti</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">13.</strong> Mati</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">99.</strong> Pancho</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="ps-4">
                                 <p class="m-0">Dylan <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
@@ -290,7 +391,7 @@
                                     <p class="my-2 fw-bold fs-5">Pulpito F.C.</p>
                                     <img src="imgs/pulpito_fc.svg" alt="escudo-pulpito" style="width: 40px; height: 40px;" class="mx-2">
                                 </div>
-                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado">6 - 3</p>
+                                <p class="px-2 py-1 my-1 mx-2 fs-5 fw-bold resultado victoria victoria">6 - 3</p>
                                 <div class="d-flex w-25 justify-content-start">
                                     <img src="imgs/equipos/malvinas-escudo.png" alt="escudo-malvinas" style="width: 40px; height: 40px;" class="mx-2">
                                     <p class="my-2 fw-bold fs-5">Malvinas</p>
@@ -300,11 +401,27 @@
                     </h2>
                     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
                         <div class="accordion-body d-flex">
-                            <div class="border-end w-25">
-                                <p><strong>DT:</strong> Nicolas Russo Mateo</p>
+                            <div class="border-end w-25 pe-3">
+                                <p><strong>DT:</strong> Nicolas Mateo</p>
+                                <p class="text-center border-top border-bottom m-0 py-2 mb-3">Convocados</p>
+                                <div class="d-flex w-100">
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">1.</strong> Massa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">4.</strong> Dylan</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">5.</strong> Pelu</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">6.</strong> Broyi</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">7.</strong> Luchi</p>
+                                    </div>
+                                    <div class="w-50">
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">9.</strong> Funa</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">10.</strong> Martin</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">11.</strong> Toti</p>
+                                        <p class="m-0"><strong class="fs-6 convocados d-inline-block">99.</strong> Pancho</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="ps-4">
-                                <p class="m-0">Pancho <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;">  <strong class="border px-1">MVP</strong></p>
+                                <p class="m-0">Pancho <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;">  <strong class="border px-1">JMV</strong></p>
                                 <p class="m-0">Toti <img src="imgs/football.png" alt="football" style="width: 14px;"> <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
                                 <p class="m-0">Broyi <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
                                 <p class="m-0">Gol En Contra <img src="imgs/football.png" alt="football" style="width: 14px;"></p>
@@ -316,6 +433,7 @@
         </div>
         <div class="container my-4">
             <h1 class="audiowide-nav fs-1">JUGADORES</h1>
+            <div class="jugadores mt-4"></div>
         </div>
         <div class="container my-4">
             <h1 class="audiowide-nav fs-1">GALERIA</h1>
@@ -330,5 +448,32 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        fetch('jugadores.json')
+            .then(response => response.json())
+            .then(data => {
+                const jugadoresDiv = document.querySelector('.jugadores');
+                jugadoresDiv.innerHTML = ''; // Limpia el contenido actual
+                data.jugadores.forEach(jugador => {
+                    jugadoresDiv.innerHTML += `
+                        <div class="border">
+                            <img src="${jugador.imagen}" alt="" class="w-100">
+                            <div class="jugador-linea w-100">
+                                <div class="w-50"></div>
+                            </div>
+                            <div class="d-flex justify-content-between py-3 px-4">
+                                <div>
+                                    <p class="mb-0">${jugador.nombre}</p>
+                                    <p class="mb-0">${jugador.apellido}</p>
+                                </div>
+                                <div>
+                                    <p class="mb-0 jugador-num">${jugador.numero}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            });
+    </script>
 </body>
 </html>

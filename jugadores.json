@@ -1,0 +1,101 @@
+{
+    "jugadores": [
+        {
+            "nombre" : "Santiago",
+            "apellido" : "MASSA",
+            "apodo" : "Massa",
+            "posicion" : "Arquero",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 1
+        },
+        {
+            "nombre" : "Dylan",
+            "apellido" : "SOTO",
+            "apodo" : "Dylan",
+            "posicion" : "Defensor",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 4
+        },
+        {
+            "nombre" : "Gregorio",
+            "apellido" : "NADALES",
+            "apodo" : "Pelu",
+            "posicion" : "Mediocampista",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 5
+        },
+        {
+            "nombre" : "Tomás",
+            "apellido" : "BROYAD",
+            "apodo" : "Broyi",
+            "posicion" : "Defensor",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 6
+        },
+        {
+            "nombre" : "Lucio",
+            "apellido" : "FERRANTELLI",
+            "apodo" : "Luchi",
+            "posicion" : "Defensor",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 7
+        },
+        {
+            "nombre" : "Ryan",
+            "apellido" : "EO",
+            "apodo" : "Ryan",
+            "posicion" : "Mediocampista",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 8
+        },
+        {
+            "nombre" : "Nicolás",
+            "apellido" : "FUNARO",
+            "apodo" : "Funa",
+            "posicion" : "Mediocampista",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 9
+        },
+        {
+            "nombre" : "Martín",
+            "apellido" : "MATEO",
+            "apodo" : "Martín",
+            "posicion" : "Delantero",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 10
+        },
+        {
+            "nombre" : "Tomás",
+            "apellido" : "DOTTORI",
+            "apodo" : "Toti",
+            "posicion" : "Delantero",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 11
+        },
+        {
+            "nombre" : "Matías",
+            "apellido" : "ITKIN",
+            "apodo" : "Mati",
+            "posicion" : "Delantero",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 13
+        },
+        {
+            "nombre" : "Joaquin",
+            "apellido" : "TORRES",
+            "apodo" : "Joaco",
+            "posicion" : "Delantero",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 20
+        },
+        {
+            "nombre" : "Francisco",
+            "apellido" : "FRECCERO",
+            "apodo" : "Pancho",
+            "posicion" : "Delantero",
+            "imagen" : "imgs/jugadores/funa.png",
+            "numero" : 99
+        }
+
+    ]
+}
